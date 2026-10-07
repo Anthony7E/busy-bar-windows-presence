@@ -1,0 +1,16 @@
+# Secrets - never commit
+.env
+.token_cache.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Background run logs
+busy-bar.log
+busy-bar.log.old
+
+# Scratch framebuffer captures
+_*.png
